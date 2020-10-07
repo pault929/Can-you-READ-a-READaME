@@ -98,6 +98,8 @@ function generateHTML(answers) {
       <p id="Test" class="lead"><h3>Test</h3>${answers.test}.</p>
     </div>
   </div>
+  <div img="examples">
+    <img src="images/tophtml.JPG">
 </body>
 </html>`;
 }
