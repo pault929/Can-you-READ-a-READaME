@@ -86,13 +86,17 @@ function generateHTML(answers) {
     <br>
     <br>
     <h3><span class="badge badge-secondary">Questions</span></h3>
+    <p>Please clink on the following links to get in contact with me<br>
+    or email me at : paultoro@gmail.com</p>
+    
+
     <ul>
       <li>GitHub: <a href="https://github.com/${answers.github}">${answers.github}</a></li>
       <li>LinkedIn: <a href="https://${answers.linkedin}">${answers.linkedin}</a></li>
     </ul>
 
       <p id="About" class="lead"><h3>Description</h3>${answers.about}.</p>
-      <p id="Installation" class="lead"><h3>Installation</h3>${answers.installation}./p>
+      <p id="Installation" class="lead"><h3>Installation</h3>${answers.installation}.</p>
       <p id="Usage" class="lead"><h3>Usage</h3>${answers.usage}.</p>
       <p id="License" class="lead"><h3>License</h3>${answers.license}.</p>
       <p id="Contributing" class="lead"><h3>Contributors</h3>${answers.contributing}.</p>
