@@ -4,7 +4,7 @@
   "description": "read me file",
   "main": "y",
   "scripts": {
-    "test": "y"
+    "test": "test"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,8 @@
     "readme"
   ],
   "author": "paultoro",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
 }
