@@ -75,6 +75,7 @@ function generateHTML(answers) {
   <h1>Read me: <class="display-5">${answers.title}</class></h1>
   <p id="License" class="lead"><h3>License</h3>${answers.license}</p>
     <br>
+  <p>Repo URL: <a href="https://github.com/pault929/Can-you-READ-a-READaME">ReadMe URL</a><p> 
     <h3><span class="badge badge-secondary">Table of Content</span></h3>
       <a href=#About>Description</a><br>
       <a href=#Installation>Installation</a><br>
@@ -86,25 +87,19 @@ function generateHTML(answers) {
     <br>
     <h3><span class="badge badge-secondary">Questions</span></h3>
     <p>Please clink on the following links to get in contact with me<br>
-    or email me at : paultoro@gmail.com</p>
-    
-
+    or email me at : paultoro@gmail.com</p> 
     <ul>
       <li>GitHub: <a href="https://github.com/${answers.github}">${answers.github}</a></li>
       <li>LinkedIn: <a href="https://${answers.linkedin}">${answers.linkedin}</a></li>
     </ul>
-
       <p id="About" class="lead"><h3>Description</h3>${answers.about}.</p>
       <p id="Installation" class="lead"><h3>Installation</h3>${answers.installation}.</p>
       <p id="Usage" class="lead"><h3>Usage</h3>${answers.usage}.</p>
      
       <p id="Contributing" class="lead"><h3>Contributors</h3>${answers.contributing}.</p>
       <p id="Test" class="lead"><h3>Test</h3>${answers.test}.</p>
-
-
-     
+    </div>
   </div>
-</div>
 </body>
 </html>`;
 }
