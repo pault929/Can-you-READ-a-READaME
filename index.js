@@ -83,6 +83,7 @@ function generateHTML(answers) {
       <a href=#License>License</a><br>
       <a href=#Contributing>Contributors</a><br> 
       <a href=#Test>Test</a><br>
+      <a href=#Images>Images</a><br>
     <br>
     <h3>Questions : Please follow the email and links below to contact me.</></h3>
     <p>Please clink on the following links to get in contact with me.<br>
@@ -96,11 +97,16 @@ function generateHTML(answers) {
       <p id="Usage" class="lead"><h3>Usage</h3>${answers.usage}.</p>
       <p id="Contributing" class="lead"><h3>Contributors</h3>${answers.contributing}.</p>
       <p id="Test" class="lead"><h3>Test</h3>${answers.test}.</p>
+    
     </div>
   </div>
-  <div img="examples">
+  <div id="examples">
+    <img src="images/index.jscode.JPG">
+    <img src="images/promptuser.JPG">
     <img src="images/tophtml.JPG">
-</body>
+    <img src="images/bottomhtml.JPG">
+  </div>
+ </body>
 </html>`;
 }
 

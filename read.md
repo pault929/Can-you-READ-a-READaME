@@ -9,8 +9,8 @@
 <body>
   <div class="jumbotron jumbotron-fluid">
   <div class="container">
-  <h1>Read me: <class="display-5">dgdfgadf</class></h1>
-  <p id="License" class="lead"><h3>License</h3>MIT</p>
+  <h1>Read me: <class="display-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum..</class></h1>
+  <p id="License" class="lead"><h3>License</h3>APACHE 2.0</p>
     <br>
   <p>Repo URL: <a href="https://github.com/pault929/Can-you-READ-a-READaME">ReadMe URL</a><p> 
     <h3><span class="badge badge-secondary">Table of Content</span></h3>
@@ -20,22 +20,28 @@
       <a href=#License>License</a><br>
       <a href=#Contributing>Contributors</a><br> 
       <a href=#Test>Test</a><br>
+      <a href=#Images>Images</a><br>
     <br>
     <h3>Questions : Please follow the email and links below to contact me.</></h3>
     <p>Please clink on the following links to get in contact with me.<br>
     or email me at : paultoro@gmail.com</p> 
     <ul>
-      <li>GitHub: <a href="https://github.com/dfgadfg">dfgadfg</a></li>
-      <li>LinkedIn: <a href="https://dfgadfg">dfgadfg</a></li>
+      <li>GitHub: <a href="https://github.com/pault929">pault929</a></li>
+      <li>LinkedIn: <a href="https://www.google.com">www.google.com</a></li>
     </ul>
-      <p id="About" class="lead"><h3>About</h3>dafgdfgdfg.</p>
-      <p id="Installation" class="lead"><h3>Installation</h3>dfgadfga.</p>
-      <p id="Usage" class="lead"><h3>Usage</h3>adfgadfg.</p>
-      <p id="Contributing" class="lead"><h3>Contributors</h3>dafgdafgad.</p>
-      <p id="Test" class="lead"><h3>Test</h3>dfgadfgadf.</p>
+      <p id="About" class="lead"><h3>About</h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum...</p>
+      <p id="Installation" class="lead"><h3>Installation</h3>npm i.</p>
+      <p id="Usage" class="lead"><h3>Usage</h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum...</p>
+      <p id="Contributing" class="lead"><h3>Contributors</h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum...</p>
+      <p id="Test" class="lead"><h3>Test</h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum...</p>
+    
     </div>
   </div>
-  <div img="examples">
+  <div id="examples">
+    <img src="images/index.jscode.JPG">
+    <img src="images/promptuser.JPG">
     <img src="images/tophtml.JPG">
-</body>
+    <img src="images/bottomhtml.JPG">
+  </div>
+ </body>
 </html>
