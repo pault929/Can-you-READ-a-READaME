@@ -14,12 +14,13 @@ function promptUser() {
     {
       type: "input",
       name: "about",
-      message: "Please give us a brief description of your projetc."
+      message: "Please give us a brief description of your project."
     },
     {
       type: "input",
       name: "installation",
-      message: "What type of installation did you use?"
+      message: "What type of installation did you use?",
+      default: "npm i",
     },
     {
       type: "input",
@@ -27,9 +28,10 @@ function promptUser() {
       message: "What is the purpose / usage of this app?"
     },
     {
-      type: "input",
+      type: "list",
       name: "license",
-      message: "Click here for a Badge: https://shields.io/category/license"
+      message: "What type of License?  https://shields.io/category/license",
+      choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
     },
     {
       type: "input",
@@ -108,7 +110,7 @@ promptUser()
   .then(function(answers) {
     const html = generateHTML(answers);
 
-    return writeFileAsync("index.html", html);
+    return writeFileAsync("read.md", html);
   })
   .then(function() {
     console.log("Successfully wrote to index.html");
