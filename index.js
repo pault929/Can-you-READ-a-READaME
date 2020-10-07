@@ -24,12 +24,12 @@ function promptUser() {
     {
       type: "input",
       name: "usage",
-      message: "What is does usage mean - need clarity?"
+      message: "What is the purpose / usage of this app?"
     },
     {
       type: "input",
       name: "license",
-      message: "What type of license did you?"
+      message: "Click here for a Badge: https://shields.io/category/license"
     },
     {
       type: "input",
@@ -72,9 +72,8 @@ function generateHTML(answers) {
 <body>
   <div class="jumbotron jumbotron-fluid">
   <div class="container">
-  <h1>Read ME</h1>
-    <h1 class="display-5">${answers.title}</h1>
-    
+  <h1>Read me: <class="display-5">${answers.title}</class></h1>
+  <p id="License" class="lead"><h3>License</h3>${answers.license}</p>
     <br>
     <h3><span class="badge badge-secondary">Table of Content</span></h3>
       <a href=#About>Description</a><br>
@@ -98,7 +97,7 @@ function generateHTML(answers) {
       <p id="About" class="lead"><h3>Description</h3>${answers.about}.</p>
       <p id="Installation" class="lead"><h3>Installation</h3>${answers.installation}.</p>
       <p id="Usage" class="lead"><h3>Usage</h3>${answers.usage}.</p>
-      <p id="License" class="lead"><h3>License</h3>${answers.license}.</p>
+      
       <p id="Contributing" class="lead"><h3>Contributors</h3>${answers.contributing}.</p>
       <p id="Test" class="lead"><h3>Test</h3>${answers.test}.</p>
 
