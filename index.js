@@ -91,7 +91,7 @@ function generateHTML(answers) {
       <li>GitHub: <a href="https://github.com/${answers.github}">${answers.github}</a></li>
       <li>LinkedIn: <a href="https://${answers.linkedin}">${answers.linkedin}</a></li>
     </ul>
-      <p id="About" class="lead"><h3>Description</h3>${answers.about}.</p>
+      <p id="About" class="lead"><h3>About</h3>${answers.about}.</p>
       <p id="Installation" class="lead"><h3>Installation</h3>${answers.installation}.</p>
       <p id="Usage" class="lead"><h3>Usage</h3>${answers.usage}.</p>
       <p id="Contributing" class="lead"><h3>Contributors</h3>${answers.contributing}.</p>
