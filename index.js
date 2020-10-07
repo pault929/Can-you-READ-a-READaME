@@ -77,7 +77,7 @@ function generateHTML(answers) {
     
     <br>
     <h3><span class="badge badge-secondary">Table of Content</span></h3>
-      <a href=#About>About the Project</a><br>
+      <a href=#About>Description</a><br>
       <a href=#Installation>Installation</a><br>
       <a href=#Usage>Usage</a><br>
       <a href=#License>License</a><br>
@@ -85,13 +85,13 @@ function generateHTML(answers) {
       <a href=#Test>Test</a><br>
     <br>
     <br>
-    <h3><span class="badge badge-secondary">External Links</span></h3>
+    <h3><span class="badge badge-secondary">Questions</span></h3>
     <ul>
-      <li>GitHub: <a href=${answers.github}>${answers.github}</a></li>
-      <li>LinkedIn: <a href=${answers.linkedin}>${answers.linkedin}</a></li>
+      <li>GitHub: <a href="https://github.com/${answers.github}">${answers.github}</a></li>
+      <li>LinkedIn: <a href="https://${answers.linkedin}">${answers.linkedin}</a></li>
     </ul>
 
-      <p id="About" class="lead"><h3>About</h3>${answers.about}.</p>
+      <p id="About" class="lead"><h3>Description</h3>${answers.about}.</p>
       <p id="Installation" class="lead"><h3>Installation</h3>${answers.installation}./p>
       <p id="Usage" class="lead"><h3>Usage</h3>${answers.usage}.</p>
       <p id="License" class="lead"><h3>License</h3>${answers.license}.</p>
