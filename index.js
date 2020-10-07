@@ -99,8 +99,9 @@ function generateHTML(answers) {
       <p id="Test" class="lead"><h3>Test</h3>${answers.test}.</p>
     
     </div>
-  </div>
-  <div id="examples">
+
+  <div class="examples">
+    <h3 id="Images"><h3>Images</h3>
     <img src="images/index.jscode.JPG">
     <img src="images/promptuser.JPG">
     <img src="images/tophtml.JPG">
@@ -117,7 +118,7 @@ promptUser()
     return writeFileAsync("read.md", html);
   })
   .then(function() {
-    console.log("Successfully wrote to index.html");
+    console.log("Great Job, Please visit Git hub link to check out new READ ME file!");
   })
   .catch(function(err) {
     console.log(err);
