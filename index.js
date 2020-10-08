@@ -97,7 +97,7 @@ function generateHTML(answers) {
       <p id="Usage" class="lead"><h3>Usage</h3>${answers.usage}.</p>
       <p id="Contributing" class="lead"><h3>Contributors</h3>${answers.contributing}.</p>
       <p id="Test" class="lead"><h3>Test</h3>${answers.test}.</p>
-    
+    </ul>
     </div>
 
   <div class="examples">
