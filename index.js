@@ -102,7 +102,8 @@ function generateHTML(answers) {
 
   <div class="examples">
     <h3 id="Images"><h3>Images</h3>
-    <img src="images/index.jscode.JPG">
+    <img src="images/indexcode.JPG">
+    <img src="images/indextop.JPG">
     <img src="images/promptuser.JPG">
     <img src="images/tophtml.JPG">
     <img src="images/bottomhtml.JPG">
