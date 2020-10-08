@@ -71,6 +71,7 @@ function generateHTML(answers) {
   <style>
       body{
           color:red;
+      }
   </style>
 </head>
 
