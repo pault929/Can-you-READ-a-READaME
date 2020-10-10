@@ -60,7 +60,7 @@ function promptUser() {
   ]);
 }
 
-function generateHTML(answers) {
+function generateMD(answers) {
   return `
 <!DOCTYPE html>
 <html lang="en">
@@ -117,7 +117,7 @@ promptUser()
   .then(function(answers) {
     const html = generateHTML(answers);
 
-    return writeFileAsync("read.md", html);
+    return writeFileAsync("read.md", md);
   })
   .then(function() {
     console.log("Great Job, Please visit Git hub link to check out new READ ME file!");
