@@ -10,7 +10,7 @@
 <body>
   <div class="jumbotron jumbotron-fluid">
   <div class="container">
-  <h1>Read me: <class="display-5">Test</class></h1>
+  <h1>Read me: <class="display-5">Test Read Me</class></h1>
   <p id="License" class="lead"><h3>License</h3>BSD 3</p>
     <br>
   <p>Repo URL: <a href="https://github.com/pault929/Can-you-READ-a-READaME">ReadMe URL</a><p> 
@@ -27,14 +27,14 @@
     <p>Please clink on the following links to get in contact with me.<br>
     or email me at : paultoro@gmail.com</p> 
     <ul>
-      <li>GitHub: <a href="https://github.com/pit929/87">pit929/87</a></li>
-      <li>LinkedIn: <a href="https://opop.ootoo">opop.ootoo</a></li>
+      <li>GitHub: <a href="https://github.com/pault/929">pault/929</a></li>
+      <li>LinkedIn: <a href="https://www.paultoro.com/lonkedin">www.paultoro.com/lonkedin</a></li>
     </ul>
-      <p id="About" class="lead"><h3>About</h3>lorem25	.</p>
+      <p id="About" class="lead"><h3>About</h3>An example of how to generate a read me file..</p>
       <p id="Installation" class="lead"><h3>Installation</h3>npm i.</p>
-      <p id="Usage" class="lead"><h3>Usage</h3>to help .</p>
-      <p id="Contributing" class="lead"><h3>Contributors</h3>people.</p>
-      <p id="Test" class="lead"><h3>Test</h3>alot.</p>
+      <p id="Usage" class="lead"><h3>Usage</h3>create a clean app.</p>
+      <p id="Contributing" class="lead"><h3>Contributors</h3>No one, just class assignmnets.</p>
+      <p id="Test" class="lead"><h3>Test</h3>none.</p>
     </ul>
     </div>
 
